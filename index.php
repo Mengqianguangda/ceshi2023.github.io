@@ -4,7 +4,6 @@ require 'bot_check.php';
 function get_user_agent() {
     return $_SERVER['HTTP_USER_AGENT'];
 }
-<!-- Site made with Mobirise Website Builder v5.8.14, https://mobirise.com -->
 function redirect_to_page($url) {
     header('Location: ' . $url);
     exit();
